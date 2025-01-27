@@ -19,21 +19,8 @@ header{
     align-items: center;
 }
 body{
-    font-family: 'Advent Pro', sans-serif;
+    font-family: "Tilt Neon", serif;
     margin: 0;
-}
-
-a{
-    text-decoration: none;
-    color: inherit;
-}
-h1{
-    font-size: 5rem;
-    font-weight: bold;
-
-}
-h2{
-    text-align: center;
 }
 
 footer{
@@ -47,6 +34,26 @@ footer{
     flex-direction: column;
 }
 
+h1{
+    font-family: "Advent Pro", serif;
+    font-size: 5rem;
+    font-weight: 500;
+
+}
+h2{
+    font-family: "Advent Pro", serif;
+    text-align: center;
+    font-weight: 200;
+}
+ul{
+    list-style-type: none;
+    padding-left: 0s;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    list-style-type: none;
+}
 
 hr{
     width: 20%;
@@ -54,7 +61,7 @@ hr{
 }
 
 .middle{
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
