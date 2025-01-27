@@ -1,6 +1,6 @@
 :root{
     --font: white;
-    --background: #228B22;
+    --background: #D1FFBD;
 }
 
 html{
@@ -20,8 +20,9 @@ header{
 }
 body{
     font-family: 'Advent Pro', sans-serif;
-        margin: 0;
+    margin: 0;
 }
+
 a{
     text-decoration: none;
     color: inherit;
@@ -40,100 +41,29 @@ footer{
     background-color: var(--background);
     text-align: center;
     padding-top: 3%;
-    padding-bottom: 1%;
+    padding-bottom: 3%;
     font-weight: bold;
     display: flex;
     flex-direction: column;
 }
-footer img{
-    width: 20px;
-}
-footer a{
-    color: inherit;
-    text-decoration: none;
-}
-.brand{
-    margin: 5vh 0 0 0 ;
+
+
+hr{
+    width: 20%;
+
 }
 
-/*Gallery formating*/
-.gallery{
-    display: grid;
-    margin: 0 auto;
-    width: min-content;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 5px;
-}
-.gallery img{
-    width: 200px;
-    cursor: pointer;
-}
-.gallery img:hover{
-    box-shadow: 0 32px 75px rgba(68, 77, 136, 0.3);
-}
-
-.full-img{
-    width: 100%;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.9);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: none;
+.middle{
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    z-index: 100;
 }
 
-.full-img img{
-    width: 90%;
-    max-width: 500px;
+.middle img{
+    margin: 10% 10%;
+    width: 500px;
 }
 
-.full-img span{
-    position: absolute;
-    top: 5%;
-    right: 5%;
-    font-size: 30px;
-    color: #fff;
-    cursor: pointer;
-}
-@media (max-width: 1050px) {
-    .gallery{
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
 
-@media (max-width: 650px) {
-    .gallery{
-        grid-template-columns: 1fr 1fr;
-    }
-}
 
-@media (max-width: 430px) {
-    .gallery{
-        grid-template-columns: 1fr 1fr;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-    }
-}
-
-@media (max-width: 410px) {
-    .gallery{
-        grid-template-columns: 1fr 1fr;
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-}
-
-@media (max-width: 380px) {
-    .gallery{
-        grid-template-columns: 1fr;
-        margin-left: 25%;
-        margin-right: 25%;
-        align-items: center;
-    }
-
-}
