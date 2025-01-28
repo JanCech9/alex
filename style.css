@@ -89,22 +89,24 @@ nav li {
     justify-items: center;
 }
 
-.middle{
-    font-size: 1.5rem;
-    font-weight: 200;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .middle img{
     margin: 2% 10%;
     width: 500px;
+    border-radius: 10px;
 }
 
+.post{
+    margin: 2% 0;
+    padding: 2%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #f1f1f1;
+    border-radius: 10px;
 
+}
 
-
+.post:hover{
+    cursor: pointer;
+}
 
 
 
