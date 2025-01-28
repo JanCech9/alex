@@ -19,6 +19,86 @@ header{
     align-items: center;
 }
 body{
+    font-family: 'Advent Pro', sans-serif;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+h2{
+    text-align: center;
+}
+
+
+footer{
+    color: var(--font);
+    background-color: var(--background);
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+
+hr{
+    width: 20%;
+
+}
+
+.middle{
+    font-size: 1.5rem;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle img{
+    margin: 10% 10%;
+    width: 500px;
+}
+
+.middle p{
+    font-family: "Tilt Neon", serif;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    font-family: "Tilt Neon", serif;
+}
+
+
+:root{
+    --font: white;
+    --background: #D1FFBD;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+header{
+    color: var(--font);
+    background-color: var(--background);
+    margin: 0;
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+body{
     font-family: "Tilt Neon", serif;
     margin: 0;
 }
