@@ -8,9 +8,14 @@ html{
     margin: 0;
     padding: 0;
 }
+
+body{
+    font-family: "Tilt Neon", serif;
+    margin: 0;
+}
+
 header{
     color: var(--font);
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     background-color: var(--background);
     margin: 0;
     display: flex;
@@ -20,15 +25,30 @@ header{
     justify-content: center;
     align-items: center;
 }
-body{
-    font-family: "Tilt Neon", serif;
-    margin: 0;
+
+nav{
+    color: var(--font);
+    /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
+    background-color: var(--background);
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+
 }
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: large;
+}
+
 
 footer{
     color: var(--font);
     background-color: var(--background);
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -43,6 +63,7 @@ h1{
     font-weight: 500;
 
 }
+
 h2{
     font-family: "Advent Pro", serif;
     text-align: center;
@@ -63,25 +84,9 @@ a{
 
 hr{
     width: 50%;
-
 }
 
-nav{
-    color: var(--font);
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-    background-color: var(--background);
-    display: flex;
-    text-decoration: none;
-    justify-content: center;
-    position: relative;
-    align-items: center;
 
-}
-nav li {
-    display: inline-block;
-    margin-right: 20px;
-    font-size: large;
-}
 /*#endregion*/
 
 .middle{
