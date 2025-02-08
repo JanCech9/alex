@@ -1,5 +1,5 @@
 :root{
-    --font: white;
+    --font: #780C28;
     --background: #D1FFBD;
 }
 
@@ -15,7 +15,8 @@ body{
 }
 
 header{
-    color: var(--font);
+    background-image: url("background.jpg");
+    color: white;
     background-color: var(--background);
     margin: 0;
     display: flex;
