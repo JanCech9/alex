@@ -1,6 +1,5 @@
 :root{
-    --font: white;
-    --background: #D1FFBD;
+    --headercolor: white;
 }
 
 /*#region general*/
@@ -16,8 +15,7 @@ body{
 
 header{
     background-image: url("images/leaves.avif");
-    color: var(--font);
-    background-color: var(--background);
+    color: var(--headercolor);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -45,7 +43,7 @@ nav li {
 
 
 footer{
-    color: var(--font);
+    color: var(--headercolor);
     background-image: url("images/leaves.avif");
     /*text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;*/
     text-align: center;
