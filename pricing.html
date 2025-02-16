@@ -12,10 +12,13 @@
 <body>
     <header>
       <h1><a href="./index.html">Alexandra</a></h1>
+      <button id="langSwitch" class="lswitch">🇵🇱</button>
+
+    
       <nav>
         <ul>
-            <li><a href="./index.html">main</a></li>
-            <li><a href="./pricing.html">pricing</a></li>
+          <li><a href="./index.html" data-en="main" data-pl="główny">main</a></li>
+          <li><a href="./pricing.html" data-en="reservation" data-pl="rezerwacja">reservation</a></li>
             <li><a href="./blog.html">blog</a></li>
         </ul>
       </nav>
@@ -25,30 +28,32 @@
 
     <div class = "middle">
 
-      <h2>Pricing</h2>
+      <h2 data-en="Pricing" data-pl="Ceny">Pricing</h2>
       <table>
           <thead>
             <tr>
-              <th>Service</th>
-              <th>Description</th>
-              <th>Price</th>
+              <th data-en="Service" data-pl="Praca">Service</th>
+              <th data-en="Description" data-pl="Opis">Description</th>
+              <th data-en="Price" data-pl="Cena">Price</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Consultation</td>
+              <td data-en="Consultation" data-pl="Konsultacja">Consultation</td>
               <td>Standart one on one therapy.</td>
               <td>$50</td>
             </tr>
             <tr>
-              <td>Pair Therapy</td>
+              <td data-en="Pair Therapy" data-pl="Terapia Par">Pair Therapy</td>
               <td>Therapy for pairs with difficulties.</td>
               <td>$75</td>
             </tr>
           </tbody>
         </table>
     </div>
-
+      <a href="https://www.znamylekar.cz/">
+        <button class="res_btn" data-en="Reservation" data-pl="Rezerwacja">Reservation</button>
+      </a>
     <footer>
         <div class="brand">
             <a href="https://cechdev.cz">© cechdev</a>
