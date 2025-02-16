@@ -113,6 +113,19 @@ hr{
 
 }
 
+.res_btn {
+    margin: 5% 45%;
+    background-color: #086525; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
 #langSwitch {
     position: absolute;
     top: 10px;
